@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stone paper scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="full">
+        <div class="container">
+            <h1 class="H2">Choose any of these</h1>
+            <div class="inside">
+                <button class="colorbtn" id="rock" style="height: 100px; width: 100px; background-color:seagreen;"
+                    value="rock" onclick="rock()">rock</button>
+                <button class="colorbtn" id="paper" style="height: 100px; width: 100px; background-color: seagreen;"
+                    value="paper" onclick="paper()">paper</button>
+                <button class="colorbtn" id="scissor" style="height: 100px; width: 100px; background-color: seagreen;"
+                    value="scissor" onclick="scissor()" >scissor</button>
+            </div>
+            <button class="reset" id="reset" onclick="reset()">reset</button>
+            <div class="score" id="score">0</div>
+            <div class="comp_score" id="comp_score">0</div>
+            <div class="choice" id="choice"></div>
+            <div class="result" id="result"></div>
+            <h2>your score</h2>
+            <h2 class="h">computer score</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+

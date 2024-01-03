@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+.full {
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    width: 100vw;
+    background-color: seagreen;
+    position: relative;
+}
+
+.container {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(44, 2, 83);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 35px;
+}
+
+.inside {
+    position: absolute;
+    left: 12%;
+    top: 16%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.reset {
+
+    position: absolute;
+    left: 6%;
+    top: 86%;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 100px;
+    background-color: seagreen;
+    font-size: 20px;
+    border-radius: 40px;
+    padding-left: 25px;
+    padding-top: 8px;
+    color: rgb(44, 2, 83);
+}
+
+.h {
+
+    position: absolute;
+    left: 35%;
+    top: 82%;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 40px;
+    padding-left: 25px;
+    padding-top: 8px;
+    color: seagreen;
+}
+
+h2 {
+    position: absolute;
+    left: 35%;
+    top: 72%;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 40px;
+    padding-left: 25px;
+    padding-top: 8px;
+    color: seagreen;
+}
+
+.H2 {
+
+    position: absolute;
+    left: 10%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-radius: 40px;
+    padding-left: 25px;
+    color: seagreen;
+}
+
+.score {
+    position: absolute;
+    left: 77%;
+    top: 75%;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 50px;
+    background-color: seagreen;
+    font-size: 20px;
+    border-radius: 40px;
+    padding-left: 21px;
+    padding-top: 6px;
+    border: 1px solid black;
+    color: rgb(44, 2, 83);
+}
+
+.comp_score {
+
+    position: absolute;
+    left: 77%;
+    top: 86%;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 50px;
+    background-color: seagreen;
+    font-size: 20px;
+    border-radius: 40px;
+    padding-left: 21px;
+    padding-top: 6px;
+    border: 1px solid black;
+    color: rgb(44, 2, 83);
+}
+.choice {
+    position: absolute;
+    font-size: 25px;
+    color: rgb(134, 182, 12);
+    left: 20%;
+    top: 45%;
+}
+
+.colorbtn {
+    color: rgb(44, 2, 83);
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.result {
+    position: absolute;
+    font-size: 50px;
+    color: rgb(134, 182, 12);
+    left: 25%;
+    top: 55%;
+}
+
